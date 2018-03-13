@@ -14,7 +14,7 @@ function init() {
     mapTypeId: 'satellite'
   });
 	
-  map.data.loadGeoJson("data/2016149_review.geojson");
+  map.data.loadGeoJson("2016149.geojson");
   map.data.setControls(['Point', 'LineString', 'Polygon']);
   map.data.setStyle({
     editable: true,
